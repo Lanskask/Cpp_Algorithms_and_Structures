@@ -1,0 +1,21 @@
+
+# Created by https://www.gitignore.io/api/cmake,clion
+# Edit at https://www.gitignore.io/?templates=cmake,clion
+
+.idea/
+
+cmake-build-*/
+
+out/
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps
+
