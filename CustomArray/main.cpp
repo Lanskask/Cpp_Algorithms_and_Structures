@@ -1,5 +1,6 @@
 #include <iostream>
 #include "CustomArray.h"
+#include "CustomArray.cpp"
 
 using namespace std;
 

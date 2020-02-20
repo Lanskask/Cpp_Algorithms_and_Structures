@@ -2,8 +2,9 @@
 // Created by Sergey Murtazin on 24/01/2020.
 //
 
-#include "Array.h"
 #include <iostream>
+#include "Array.h"
+#include "Array.cpp"
 
 using namespace std;
 

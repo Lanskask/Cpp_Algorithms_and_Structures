@@ -5,6 +5,7 @@
 #include <iostream>
 
 #include "Stack.h"
+#include "Stack.cpp"
 
 using namespace std;
 
@@ -12,8 +13,8 @@ void withIntStack() {
 //    Stack<int> *stack = new Stack<int>();
     auto *stack = new Stack<int>(vector<int>{1,2,3});
 
-//    stack->push(5);
-//    cout << "Val in stack: " << stack->top() << endl;
+    stack->push(5);
+    cout << "Val in stack: " << stack->top() << endl;
 }
 
 //void withStringStack() {

@@ -20,7 +20,8 @@ CustomArray<T>::~CustomArray() {
 
 template <class T>
 void CustomArray<T>::push(T value) {
-    if(m_size > m_capacity) resize();
+    if(m_size > m_capacity)
+        resize();
     *(m_data + m_size++) = value;
 }
 

@@ -5,6 +5,7 @@
 #include <iostream>
 
 #include "Simple.h"
+#include "Simple.cpp"
 
 using namespace std;
 
